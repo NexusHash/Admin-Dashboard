@@ -1,6 +1,6 @@
 import { forwardRef } from "react";
 import Link from "next/link";
-import { HomeIcon, CreditCardIcon, UserIcon } from "@heroicons/react/24/solid";
+import { HomeIcon, CreditCardIcon, UserIcon, CubeIcon, UserGroupIcon } from "@heroicons/react/24/solid";
 import { useRouter } from "next/router";
 
 const SideBar = forwardRef(({ showNav }, ref) => {
@@ -35,7 +35,39 @@ const SideBar = forwardRef(({ showNav }, ref) => {
             </div>
           </div>
         </Link>
-        <Link href="/account">
+        <Link href="/products">
+          <div
+            className={`pl-6 py-3 mx-5 rounded text-center cursor-pointer mb-3 flex items-center transition-colors ${
+              router.pathname == "/products"
+                ? "bg-orange-100 text-orange-500"
+                : "text-gray-400 hover:bg-orange-100 hover:text-orange-500"
+            }`}
+          >
+            <div className="mr-2">
+              <CubeIcon className="h-5 w-5" />
+            </div>
+            <div>
+              <p>Products</p>
+            </div>
+          </div>
+        </Link>
+        <Link href="/transactions">
+          <div
+            className={`pl-6 py-3 mx-5 rounded text-center cursor-pointer mb-3 flex items-center transition-colors ${
+              router.pathname == "/transactions"
+                ? "bg-orange-100 text-orange-500"
+                : "text-gray-400 hover:bg-orange-100 hover:text-orange-500"
+            }`}
+          >
+            <div className="mr-2">
+              <CreditCardIcon className="h-5 w-5" />
+            </div>
+            <div>
+              <p>Transactions</p>
+            </div>
+          </div>
+        </Link>
+        <Link href="../profile/account">
           <div
             className={`pl-6 py-3 mx-5 rounded text-center cursor-pointer mb-3 flex items-center transition-colors ${
               router.pathname == "/account"
@@ -51,19 +83,19 @@ const SideBar = forwardRef(({ showNav }, ref) => {
             </div>
           </div>
         </Link>
-        <Link href="/billing">
+        <Link href="/team">
           <div
             className={`pl-6 py-3 mx-5 rounded text-center cursor-pointer mb-3 flex items-center transition-colors ${
-              router.pathname == "/billing"
+              router.pathname == "/team"
                 ? "bg-orange-100 text-orange-500"
                 : "text-gray-400 hover:bg-orange-100 hover:text-orange-500"
             }`}
           >
             <div className="mr-2">
-              <CreditCardIcon className="h-5 w-5" />
+              <UserGroupIcon className="h-5 w-5" />
             </div>
             <div>
-              <p>Billing</p>
+              <p>Team Members</p>
             </div>
           </div>
         </Link>

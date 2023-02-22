@@ -13,7 +13,7 @@ import Link from "next/link";
 export default function TopBar({ showNav, setShowNav }) {
   return (
     <div
-      className={`fixed w-full h-16 flex justify-between items-center transition-all duration-[400ms] ${
+      className={`fixed w-full bg-white shadow-sm z-50 h-16 flex justify-between items-center transition-all duration-[400ms] ${
         showNav ? "pl-56" : ""
       }`}
     >
@@ -23,7 +23,7 @@ export default function TopBar({ showNav, setShowNav }) {
           onClick={() => setShowNav(!showNav)}
         />
       </div>
-      <div className="flex items-center pr-4 md:pr-16">
+      <div className="flex items-center pr-4 md:pr-16 mt-2">
         <Popover className="relative">
           <Popover.Button className="outline-none mr-5 md:mr-8 cursor-pointer text-gray-700">
             <BellIcon className="h-6 w-6" />
@@ -37,7 +37,7 @@ export default function TopBar({ showNav, setShowNav }) {
             leaveFrom="transform scale-100"
             leaveTo="transform scale-95"
           >
-            <Popover.Panel className="absolute -right-16 sm:right-4 z-50 mt-2 bg-white shadow-sm rounded max-w-xs sm:max-w-sm w-screen">
+            <Popover.Panel className="absolute -right-16 sm:right-4 z-50 mt-2 bg-white shadow-lg outline outline-1 outline-orange-400 rounded max-w-xs sm:max-w-sm w-screen">
               <div className="relative p-3">
                 <div className="flex justify-between items-center w-full">
                   <p className="text-gray-700 font-medium">Notifications</p>
@@ -108,8 +108,8 @@ export default function TopBar({ showNav, setShowNav }) {
             <Menu.Button className="inline-flex w-full justify-center items-center">
               <picture>
                 <img
-                  src="/man-portrait.png"
-                  className="rounded-full h-12 w-12 object-cover md:mr-4 p-0 border-2 border-white shadow-sm"
+                  src="/images/man-portrait.png"
+                  className="rounded-full h-12 w-12 object-cover md:mr-4 p-0 border-x-2 border-orange-200 shadow-sm"
                   alt="profile picture"
                 />
               </picture>
@@ -128,11 +128,11 @@ export default function TopBar({ showNav, setShowNav }) {
             leaveFrom="transform scale-100"
             leaveTo="transform scale-95"
           >
-            <Menu.Items className="absolute right-0 w-56 z-50 mt-2 origin-top-right bg-white rounded shadow-sm">
+            <Menu.Items className="absolute right-0 w-56 z-50 mt-2 origin-top-right bg-white shadow-lg outline outline-1 outline-orange-400 rounded shadow-sm">
               <div className="p-1">
                 <Menu.Item>
                   <Link
-                    href="#"
+                    href="../profile/profileEdit"
                     className="flex hover:bg-orange-500 hover:text-white text-gray-700 rounded p-2 text-sm group transition-colors items-center"
                   >
                     <PencilIcon className="h-4 w-4 mr-2" />
