@@ -32,8 +32,8 @@ export default function Account() {
         <div className='flex justify-center mb-24'>
             <div className="flex flex-col rounded-lg w-[90%] bg-white h-[850px] mb-16 shadow-lg p-4">
                 <div className='flex flex-col w-full justify-center items-center mt-3 h-1/5'>
-                    <img src='../images/man-portrait.png' alt='' className='w-36 h-36 object-cover rounded-full border-2 border-orange-500'/>
-                    <button className='p-2 m-2 w-32 font-semibold bg-orange-500 text-white rounded-md hover:bg-orange-400 hover:scale-[101%] transition-all duration-200 ease-linear'>Edit Image</button>
+                    <img src='../images/man-portrait.png' alt='' className='shadow-md w-36 h-36 object-cover rounded-full border-2 border-orange-500'/>
+                    <button className='shadow-md p-2 m-2 w-32 font-semibold bg-orange-500 text-white rounded-md hover:bg-orange-400 hover:scale-[101%] transition-all duration-200 ease-linear'>Edit Image</button>
                 </div>
                 <div className='grid col-span-1 h-4/5 content-center w-[100%]'>
                     <div className='flex flex-col w-full p-4 justify-center rounded-lg'>
@@ -74,7 +74,7 @@ export default function Account() {
                     </div>
                     <Link href='../profile/account'>
                     <div className='flex flex-col w-full p-4 justify-center items-center rounded-lg'>  
-                      <button className='font-semibold hover:bg-orange-400 hover:scale-[101%] transition-all duration-200 rounded-lg p-4 bg-orange-500 text-white w-[20%]'> Save </button>
+                      <button className='shadow-md font-semibold hover:bg-orange-400 hover:scale-[101%] transition-all duration-200 rounded-lg p-4 bg-orange-500 text-white w-[20%]'> Save </button>
                     </div>
                     </Link>
                 </div>

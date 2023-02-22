@@ -12,7 +12,7 @@ export default function Account() {
   
         <div className="flex flex-row rounded-lg w-full bg-white h-48 mb-16 shadow-lg p-4 ">
           <div className='flex w-1/5 items-center'>
-            <img src="../images/man-portrait.png" alt="" className="w-32 h-32 object-cover rounded-full border-2 border-orange-500" />
+            <img src="../images/man-portrait.png" alt="" className="shadow-lg w-32 h-32 object-cover rounded-full border-2 border-orange-500" />
           </div>
           <div className="flex flex-row w-2/5 items-center">
             <div className="flex flex-col ml-8 ">

@@ -46,23 +46,25 @@ export default function Transaction() {
         </div>
 
         <div className="flex flex-col rounded-lg bg-white h-46 w-full justify-center content-center shadow-md">
-            <div className="grid grid-cols-5 font-semibold p-4 h-14 ml-2 mr-2 border-b-2 border-orange-500 justify-between">
+            <div className="grid grid-cols-6 font-semibold p-4 h-14 ml-2 mr-2 border-b-2 border-orange-500 justify-between">
                 <item className="">Item</item>
                 <item className="">Product</item>
                 <item className="">Buyer</item>
                 <item className="">Date</item>
                 <item className="">Price</item>
+                <item className="">Contact</item>
             </div>
 
-            <div className="grid grid-cols-5 rounded-lg font-base text-sm bg-cyan-200 mt-5 h-20 mb-5 p-4 ml-2 mr-2 ">
-                <item className="">Storage Hosting</item>
-                <item className="">Cloud Storage Premium</item>
-                <item className="">John Doe</item>
-                <item className="">
-                <p>7 February 2023</p>
+            <div className="grid grid-cols-6 rounded-lg font-semibold text-sm bg-cyan-200 mt-5 h-20 mb-5 p-4 ml-2 mr-2 ">
+                <item className="m-1">Storage Hosting</item>
+                <item className="m-1">Cloud Storage Premium</item>
+                <item className="m-1">John Doe</item>
+                <item className="m-1">
+                <p>6 February 2023</p>
                 <p>14:23pm</p>
                 </item>
-                <item className="">+ $89.99</item>
+                <item className="m-1">+ $89.99</item>
+                <item className="m-1">johndoe@gmail.com</item>
             </div>
         </div>
       </>

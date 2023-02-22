@@ -215,6 +215,174 @@ export default function Home() {
             </div>
           </div>
           </Link>
+
+          <Link href='../transaction/transaction'>
+          <div className="flex flex-col min-w-full h-auto hover:cursor-pointer hover:scale-[99%] transition-all duration-150 z-1">
+            <div className="flex flex-row shadow-md justify-between p-4 m-2 bg-cyan-200 rounded-lg">
+              <div className="flex justify-center items-center w-1/5">
+                <div className="p-4 bg-gray-100 rounded-lg">
+                  <ServerStackIcon className="w-5 h-5  text-orange-500"/>
+                </div>
+              </div>
+              <div className="flex flex-col w-1/4">
+                <p className="font-semibold text-sm">Windows Hosting Premium</p>
+                <p className="font-semibold text-xs text-gray-500">Web Hosting</p>
+              </div>
+              <div className="flex flex-col w-1/4">
+                <p className="font-semibold text-sm">7 February 2023</p>
+                <p className="font-semibold text-xs text-gray-500">Last Payment</p>
+              </div>
+              <div className="flex flex-col w-1/4">
+                <p className="font-semibold text-sm">+ $44.99</p>
+                <p className="font-semibold text-xs text-gray-500">Balance</p>
+              </div>
+            </div>
+          </div>
+          </Link>
+
+          <Link href='../transaction/transaction'>
+          <div className="flex flex-col min-w-full h-auto hover:cursor-pointer hover:scale-[99%] transition-all duration-150">
+            <div className="flex flex-row shadow-md justify-between p-4 m-2 bg-cyan-200 rounded-lg">
+              <div className="flex justify-center items-center w-1/5">
+                <div className="p-4 bg-gray-100 rounded-lg">
+                  <EnvelopeIcon className="w-5 h-5  text-orange-500"/>
+                </div>
+              </div>
+              <div className="flex flex-col w-1/4">
+                <p className="font-semibold text-sm">Linux Mail Hosting Premium</p>
+                <p className="font-semibold text-xs text-gray-500">Email Hosting</p>
+              </div>
+              <div className="flex flex-col w-1/4">
+                <p className="font-semibold text-sm">7 February 2023</p>
+                <p className="font-semibold text-xs text-gray-500">Last Payment</p>
+              </div>
+              <div className="flex flex-col w-1/4">
+                <p className="font-semibold text-sm">+ $22.99</p>
+                <p className="font-semibold text-xs text-gray-500">Balance</p>
+              </div>
+            </div>
+          </div>
+          </Link>
+
+          <Link href='../transaction/transaction'>
+          <div className="flex flex-col min-w-full h-auto hover:cursor-pointer hover:scale-[99%] transition-all duration-150">
+            <div className="flex flex-row shadow-md justify-between p-4 m-2 bg-red-200 rounded-lg">
+              <div className="flex justify-center items-center w-1/5">
+                <div className="p-4 bg-gray-100 rounded-lg">
+                  <ServerStackIcon className="w-5 h-5  text-orange-500"/>
+                </div>
+              </div>
+              <div className="flex flex-col w-1/4">
+                <p className="font-semibold text-sm">Server Upkeep Costs</p>
+                <p className="font-semibold text-xs text-gray-500">Server Costs</p>
+              </div>
+              <div className="flex flex-col w-1/4">
+                <p className="font-semibold text-sm">6 February 2023</p>
+                <p className="font-semibold text-xs text-gray-500">Last Payment</p>
+              </div>
+              <div className="flex flex-col w-1/4">
+                <p className="font-semibold text-sm">- $1100.99</p>
+                <p className="font-semibold text-xs text-gray-500">Balance</p>
+              </div>
+            </div>
+          </div>
+          </Link>
+
+          <Link href='../transaction/transaction'>
+          <div className="flex flex-col min-w-full h-auto hover:cursor-pointer hover:scale-[99%] transition-all duration-150">
+            <div className="flex flex-row shadow-md justify-between p-4 m-2 bg-cyan-200 rounded-lg">
+              <div className="flex justify-center items-center w-1/5">
+                <div className="p-4 bg-gray-100 rounded-lg">
+                  <ServerStackIcon className="w-5 h-5  text-orange-500"/>
+                </div>
+              </div>
+              <div className="flex flex-col w-1/4">
+                <p className="font-semibold text-sm">Windows Hosting Gold</p>
+                <p className="font-semibold text-xs text-gray-500">Web Hosting</p>
+              </div>
+              <div className="flex flex-col w-1/4">
+                <p className="font-semibold text-sm">6 February 2023</p>
+                <p className="font-semibold text-xs text-gray-500">Last Payment</p>
+              </div>
+              <div className="flex flex-col w-1/4">
+                <p className="font-semibold text-sm">+ $39.99</p>
+                <p className="font-semibold text-xs text-gray-500">Balance</p>
+              </div>
+            </div>
+          </div>
+          </Link>
+
+          <Link href='../transaction/transaction'>
+          <div className="flex flex-col min-w-full h-auto hover:cursor-pointer hover:scale-[99%] transition-all duration-150">
+            <div className="flex flex-row shadow-md justify-between p-4 m-2 bg-red-200 rounded-lg">
+              <div className="flex justify-center items-center w-1/5">
+                <div className="p-4 bg-gray-100 rounded-lg">
+                  <ServerStackIcon className="w-5 h-5  text-orange-500"/>
+                </div>
+              </div>
+              <div className="flex flex-col w-1/4">
+                <p className="font-semibold text-sm">Windows Hosting Premium</p>
+                <p className="font-semibold text-xs text-gray-500">Web Hosting</p>
+              </div>
+              <div className="flex flex-col w-1/4">
+                <p className="font-semibold text-sm">6 February 2023</p>
+                <p className="font-semibold text-xs text-gray-500">Last Payment</p>
+              </div>
+              <div className="flex flex-col w-1/4">
+                <p className="font-semibold text-sm">- $44.99</p>
+                <p className="font-semibold text-xs text-gray-500">Refund</p>
+              </div>
+            </div>
+          </div>
+          </Link>
+
+          <Link href='../transaction/transaction'>
+          <div className="flex flex-col min-w-full h-auto hover:cursor-pointer hover:scale-[99%] transition-all duration-150">
+            <div className="flex flex-row shadow-md justify-between p-4 m-2 bg-cyan-200 rounded-lg">
+              <div className="flex justify-center items-center w-1/5">
+                <div className="p-4 bg-gray-100 rounded-lg">
+                  <CloudIcon className="w-5 h-5  text-orange-500"/>
+                </div>
+              </div>
+              <div className="flex flex-col w-1/4">
+                <p className="font-semibold text-sm">Cloud Storage</p>
+                <p className="font-semibold text-xs text-gray-500">Storage Hosting</p>
+              </div>
+              <div className="flex flex-col w-1/4">
+                <p className="font-semibold text-sm">6 February 2023</p>
+                <p className="font-semibold text-xs text-gray-500">Last Payment</p>
+              </div>
+              <div className="flex flex-col w-1/4">
+                <p className="font-semibold text-sm">+ $89.99</p>
+                <p className="font-semibold text-xs text-gray-500">Balance</p>
+              </div>
+            </div>
+          </div>
+          </Link>
+
+          <Link href='../transaction/transaction'>
+          <div className="flex flex-col min-w-full h-auto hover:cursor-pointer hover:scale-[99%] transition-all duration-150">
+            <div className="flex flex-row shadow-md justify-between p-4 m-2 bg-cyan-200 rounded-lg">
+              <div className="flex justify-center items-center w-1/5">
+                <div className="p-4 bg-gray-100 rounded-lg">
+                  <EnvelopeIcon className="w-5 h-5  text-orange-500"/>
+                </div>
+              </div>
+              <div className="flex flex-col w-1/4">
+                <p className="font-semibold text-sm">Linux Mail Hosting Silver</p>
+                <p className="font-semibold text-xs text-gray-500">Email Hosting</p>
+              </div>
+              <div className="flex flex-col w-1/4">
+                <p className="font-semibold text-sm">7 February 2023</p>
+                <p className="font-semibold text-xs text-gray-500">Last Payment</p>
+              </div>
+              <div className="flex flex-col w-1/4">
+                <p className="font-semibold text-sm">+ $16.99</p>
+                <p className="font-semibold text-xs text-gray-500">Balance</p>
+              </div>
+            </div>
+          </div>
+          </Link>
         </div>
       </div>
       </>
