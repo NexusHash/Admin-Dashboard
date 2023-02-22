@@ -29,7 +29,7 @@ export default function Account() {
           
         </div>
 
-        <div className='flex justify-center'>
+        <div className='flex justify-center mb-24'>
             <div className="flex flex-col rounded-lg w-[90%] bg-white h-[850px] mb-16 shadow-lg p-4">
                 <div className='flex flex-col w-full justify-center items-center mt-3 h-1/5'>
                     <img src='../images/man-portrait.png' alt='' className='w-36 h-36 object-cover rounded-full border-2 border-orange-500'/>
@@ -72,10 +72,11 @@ export default function Account() {
                         placeholder='https://www.twitter.com/'
                         className= 'w-[100%] outline outline-offset-0 p-2 outline-1 shadow-md outline-gray-300 rounded-sm'/>
                     </div>
-                    <div className='flex flex-col w-full p-4 justify-center items-center rounded-lg'>
-                        <button className='font-semibold hover:bg-orange-400 hover:scale-[101%] transition-all duration-200 rounded-lg p-4 bg-orange-500 text-white w-[30%]'> Save </button>
+                    <Link href='../profile/account'>
+                    <div className='flex flex-col w-full p-4 justify-center items-center rounded-lg'>  
+                      <button className='font-semibold hover:bg-orange-400 hover:scale-[101%] transition-all duration-200 rounded-lg p-4 bg-orange-500 text-white w-[20%]'> Save </button>
                     </div>
-
+                    </Link>
                 </div>
             </div>
         </div>

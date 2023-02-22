@@ -113,12 +113,11 @@ export default function Home() {
         </div>
         
       </div>
-      <div className="flex flex-col bg-white h-[40rem] shadow-2xl rounded-md mb-10 overflow-auto">
-        <div className="flex flex-row drop-shadow-md justify-between h-10 items-center m-4 mt-8 
-        pb-6 border-b-2 border-orange-500 z-1">
+      <div className="flex flex-col bg-white h-[40rem] shadow-2xl rounded-md mb-20 overflow-auto">
+        <div className="flex flex-row justify-between h-10 items-center m-4 mt-8 
+        pb-6 z-1">
           <div className="flex flex-col">
             <p className="text-l font-semibold md:text-xl lg:text-2xl"> Recent Transactions </p>
-            <p className="text-sm text-gray-400 font-semibold md:text-l lg:text-xl"> Transactions made this month </p>
           </div>
           <div className="flex flex-row justify-center items-center">
             <div className="flex flex-row bg-white justify-center items-center rounded-lg outline outline-1 outline-gray-500 mr-5 w-58">
@@ -131,8 +130,14 @@ export default function Home() {
             <Cog6ToothIcon className="w-6 h-6 hover:scale-105 duration-200 transition-all hover:cursor-pointer" />
           </div>
         </div>
+        <div className="grid grid-cols-5 w-full font-semibold p-4 h-14 ml-2 mr-2 border-b-2 border-orange-500 justify-between text-center">
+                <item className="">Item</item>
+                <item className="">Product</item>
+                <item className="">Date</item>
+                <item className="">Price</item>
+          </div>
 
-        <div className="overflow-auto  [&::-webkit-scrollbar]:hidden">
+        <div className="overflow-auto [&::-webkit-scrollbar]:hidden mb-2">
           <div className="flex flex-col min-w-full h-auto hover:cursor-pointer hover:scale-[99%] transition-all duration-150 z-1">
             <div className="flex flex-row shadow-md justify-between p-4 m-2 bg-cyan-200 rounded-lg">
               <div className="flex justify-center items-center w-1/5">
